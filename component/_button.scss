@@ -1,0 +1,24 @@
+.btn-square-primary {
+  width: 50px;
+  height: 50px;
+  display: grid;
+  padding-left: map-get($spacers, 3);
+  padding-right: map-get($spacers, 3);
+  place-items: center;
+  background-color: use-color-pallette("blue-500");
+  border-radius: $border-radius-lg;
+  outline: transparent;
+  border: transparent;
+  font-size: $h3-font-size;
+  color: $white;
+  box-shadow: $box-shadow-inset;
+  transition-property: background;
+  transition-duration: 0.3s;
+  &:hover {
+    background-color: use-color-pallette("blue-600");
+  }
+
+  &:active {
+    background-color: use-color-pallette("blue-700");
+  }
+}
