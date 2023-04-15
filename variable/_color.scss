@@ -25,6 +25,11 @@ $teal: #20c997;
 $cyan: #0dcaf0;
 // scss-docs-end colors-individual
 
+$min-contrast-ratio:   4.5 !default;
+$color-contrast-dark:      $black !default;
+$color-contrast-light:     $white !default;
+
+
 // scss-docs-start colors-map
 $colors: (
   "blue": $blue,
@@ -76,3 +81,8 @@ $theme-colors: (
   "light": $light,
   "dark": $dark,
 );
+
+
+$body-bg:                   $white !default;
+$body-color:                $gray-900 !default;
+$body-text-align:           null !default;
