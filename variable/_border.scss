@@ -1,16 +1,16 @@
 // scss-docs-start border-variables
-$border-width:                1px !default;
+$border-width: 1px !default;
 $border-widths: (
   1: 1px,
   2: 2px,
   3: 3px,
   4: 4px,
-  5: 5px
+  5: 5px,
 ) !default;
 
-$border-style:                solid !default;
-$border-color:                $gray-300 !default;
-$border-color-translucent:    rgba($black, .175) !default;
+$border-style: solid !default;
+$border-color: $gray-300 !default;
+$border-color-translucent: rgba($black, 0.175) !default;
 // scss-docs-end border-variables
 
 // scss-docs-start border-radius-variables
